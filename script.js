@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
             alert("Please enter a task.");
             return;
         }
-        addTask(taskText);
+        addTask(taskText); // Explicitly calling addTask
     });
 
     // Add event listener to the task input field for the Enter key press
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert("Please enter a task.");
                 return;
             }
-            addTask(taskText);
+            addTask(taskText); // Explicitly calling addTask
         }
     });
 
